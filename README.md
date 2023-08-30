@@ -16,21 +16,12 @@ The goal of VasculatureVision is to create a robust and accurate model for segme
 
 1. Clone this repository to your local machine using:
    ```
-   git clone https://github.com/your-username/VasculatureVision.git
+   git clone https://github.com/Krish-Sahu/VasculatureVision
    ```
 
-2. Follow the instructions in `data_preparation.ipynb` to generate your training and validation datasets.
+2. Follow the instructions in `k-fold-cv-coco-dataset-generator.ipynb.ipynb` to generate your training and validation datasets.
 
-3. Use the code in `model_training.ipynb` to train the microvasculature segmentation model. Feel free to experiment with different architectures and backbones.
+3. Use the code in `Main_model_training.ipynb` to train the microvasculature segmentation model. Feel free to experiment with different architectures and backbones.
 
-4. Once trained, refer to `inference.ipynb` for guidance on using the model for segmenting microvascular structures in new images.
+4. Once trained, refer to `Final_Inference_code.ipynb` for guidance on using the model for segmenting microvascular structures in new images.
 
-## Contributions
-
-Contributions to the VasculatureVision project are welcome! Whether you're interested in enhancing the model, improving data preprocessing, or optimizing the code, feel free to submit pull requests. Let's work together to advance our understanding of microvascular structures.
-
-## Acknowledgments
-
-We would like to express our gratitude to the Human BioMolecular Atlas Program (HuBMAP) for providing the dataset and the opportunity to contribute to this meaningful research endeavor.
-
-For any questions or feedback, please contact [your-email@example.com](mailto:your-email@example.com). Thank you for being a part of the VasculatureVision project!
